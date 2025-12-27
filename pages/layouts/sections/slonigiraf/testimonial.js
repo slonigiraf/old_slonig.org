@@ -1,7 +1,32 @@
-import React from 'react'
 import Slider from "react-slick";
 import {Container,Row,Col} from 'reactstrap'
-import {TestimonialData} from '../../../../database/layouts/agency/database';
+
+const TestimonialData = [
+        {
+            photo: '/assets/images/agency/testimonial/araslanova.png',
+            name: 'Karina Araslanova',
+            role: 'History teacher, Lyceum No. 9, Slobodskoy city',
+            details: 'Students like that during such lessons they can talk with absolutely any classmate, move around the classroom. The technique is convenient not only for children, but also for teachers.'
+        },
+        {
+            photo: '/assets/images/agency/testimonial/skobelev.png',
+            name: 'Nikolay Skobelev',
+            role: 'Chemistry teacher, Compas, Budva',
+            details: 'The approach used in Slonig helps to enhance student motivation, communication, and interaction within the group. The students were interested in the new format. I think Slonig could be a convenient tool for education.'
+        },
+        {
+            photo: '/assets/images/agency/testimonial/lebedincev.png',
+            name: 'Vladimir Lebedintsev',
+            role: 'PhD, Associate Professor, Krasnoyarsk regional institute for educators training',
+            details: 'It\'s interesting to observe how the project team manages to focus on the importance of personal freedom, self-determination of students and live communication in the learning process.'
+        },
+        {
+            photo: '/assets/images/agency/testimonial/shirokova.png',
+            name: 'Elena Shirokova',
+            role: 'English teacher, Family education center, Saratov city',
+            details: 'I was pleased with the results. The kids enjoyed it. Those children who were mentors felt more confident. Most of the child mentors really tried to teach others, they felt responsible.'
+        },
+    ];
 
 var settings = {
     dots: false,

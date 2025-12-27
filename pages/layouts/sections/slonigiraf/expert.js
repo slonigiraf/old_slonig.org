@@ -1,7 +1,22 @@
-import React from 'react'
 import Slider from "react-slick";
 import { Container, Row, Col } from 'reactstrap'
-import { ExpertData } from '../../../../database/layouts/agency/database';
+const ExpertData = [
+        {
+            photo: '/assets/images/agency/team/reshetov.png',
+            title: 'Denis Reshetov',
+            details: 'Team Leader. Has experience in managing large projects in the field of education, as well as scientific work in the field of studying the human brain.'
+        },
+        {
+            photo: '/assets/images/agency/team/andreeva2.png',
+            title: 'Natalie Andreeva',
+            details: 'Chief Business Development Officer. Natali has many years of experience in financial management in fintech and educational projects.'
+        },
+        {
+            photo: '/assets/images/agency/team/moskvin.png',
+            title: 'Ilya Moskvin',
+            details: 'Software Engineer. Ilya works with a wide range of technologies, from Javascript to distributed computing and blockchain.'
+        },
+    ];
 
 var settings = {
     dots: false,
